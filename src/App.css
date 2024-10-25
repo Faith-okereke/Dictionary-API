@@ -1,6 +1,7 @@
 .input-box{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border: 1px solid rgb(0, 0, 0);
   margin: 20px auto;
   cursor: pointer;
@@ -16,6 +17,7 @@
 }
 .searchResult{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 300px;
   margin: 0 auto;
